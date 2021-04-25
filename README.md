@@ -20,6 +20,6 @@ In this project, we analyzed how people's opinions on social media can be associ
 
 - regression_analysis_census.ipynb: This notebook runs regression analysis on extracted opinions on features from United Census Bureau. It can directly run in Jupyter notebook with "aspect_cities.csv" in the data folder.
 
-
+*Contributor: Zhanzhan Zhao, Jongseok Han, Haomin Lin* 
 
 
