@@ -6,7 +6,9 @@ In this project, we analyzed how people's opinions on social media can be associ
 
 - bow_manual.ipynb: This notebook includes initial analysis on data manually picked from Facebook and Roomster, it's simply runable through Jupyter notebook.
 
-- srcape_reddit_personal_attention.ipynb: This notebook includes scripts for scraping data from Reddit with Bigquery, filtering related content, and label the race identity of the comment. It needs a Google Cloud account and a Bigquery project registered with data at https://console.cloud.google.com/bigquery?p=fh-bigquery&page=project to run. And in our analysis, it can only be run on Google colab. The race labeling process is retained in the scraping process to protect privacy of the authors in the database.
+- scrape_reddit_personal_attention.ipynb: This notebook includes scripts for scraping data from Reddit with PSAW and PRAW, filtering related content, and label the race identity of the comment. It needs a Reddit project to conduct the scraping. The race labeling process is retained in the scraping process to protect privacy of the authors in the database.
+
+- bigquery_reddit_personal_attention.ipynb: This notebook includes scripts for scraping data from Reddit with Bigquery, filtering related content, and label the race identity of the comment. It needs a Google Cloud account and a Bigquery project registered with data at https://console.cloud.google.com/bigquery?p=fh-bigquery&page=project to run. And in our analysis, it can only be run on Google colab. The race labeling process is retained in the scraping process to protect privacy of the authors in the database.
 
 - personal_attention.ipynb: This notebook runs analysis collected and preprocessed Reddit data, it can be simply run with Jupyter notebook. The visualizations it generates are based on manually selected results from the IDF and word clustering output of our automated analysis on data. It requires manual modification in the notebook to modify the visualization
 
